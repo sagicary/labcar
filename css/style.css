@@ -138,9 +138,10 @@
   height: 70vh;
 }
 .cuadro2{
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   float: right;
   height: 70vh;
+  padding: 50px;
 }
 .boton2{
   color: white;
