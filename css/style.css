@@ -49,4 +49,53 @@
 .navbar-default{
   background-color: white;
   border: transparent;
+  padding: 20px;
+}
+.navbar-default .navbar-toggle{
+  border: transparent;
+}
+.fondo{
+  background-image: url(../assets/img/taxi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+
+.cuadro{
+  right: 0px;
+  background-color: #FBBE00;
+  margin-top: 100px;
+  float: right;
+}
+/*
+.cuadro{
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  background-color: #FBBE00;
+  right: 0px;
+  top: 50px;
+  margin-top: 150px;
+}*/
+.espacio{
+  height: 50px;
+}
+.contenido{
+  margin: 30px 20px 30px 20px;
+}
+.blanco{
+  color: white;
+}
+.negrita{
+  font-weight: bold;
+}
+.abajo{
+  padding-bottom: 10px;
+}
+.linea{
+  width: 100px;
+  border-bottom: 1px solid white;
 }
