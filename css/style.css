@@ -45,6 +45,10 @@
   content: "\eaca";
 }
 
+*{
+  margin: 0 auto;
+  padding: 0;
+}
 /*Estilo Navbar*/
 .navbar-default{
   background-color: white;
@@ -54,6 +58,7 @@
 .navbar-default .navbar-toggle{
   border: transparent;
 }
+/*Fondo Header*/
 .fondo{
   background-image: url(../assets/img/taxi.jpg);
   background-repeat: no-repeat;
@@ -64,13 +69,14 @@
   background-position: center bottom;
 }
 
+/*Cuadro header*/
 .cuadro{
   right: 0px;
   background-color: #FBBE00;
   margin-top: 100px;
   float: right;
 }
-/*
+/* Cuadro de lyft
 .cuadro{
   width: 500px;
   height: 400px;
@@ -86,6 +92,12 @@
 .contenido1{
   margin: 30px 20px 30px 20px;
 }
+.contenido2{
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+/*Estilos generales textos*/
 .blanco{
   color: white;
 }
@@ -95,11 +107,26 @@
 .abajo{
   padding-bottom: 10px;
 }
-.linea{
-  width: 100px;
-  border-bottom: 1px solid white;
+
+
+/*SECCION INFO*/
+.info{
+  background-color: #FBBE00;
 }
-.contenido2{
-  padding: 10px;
-  padding-bottom: 20px;
+.info1{
+  border: 1px solid white;
+  float: left;
+  left: 0px;
+  margin: 30px 0px;
+}
+.imagen{
+  padding: 20px;
+}
+.textoInfo{
+  padding: 30px;
+}
+.info2{
+  border: 1px solid white;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
