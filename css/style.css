@@ -83,7 +83,7 @@
 .espacio{
   height: 50px;
 }
-.contenido{
+.contenido1{
   margin: 30px 20px 30px 20px;
 }
 .blanco{
@@ -98,4 +98,8 @@
 .linea{
   width: 100px;
   border-bottom: 1px solid white;
+}
+.contenido2{
+  padding: 10px;
+  padding-bottom: 20px;
 }
