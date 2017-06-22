@@ -184,5 +184,23 @@
   height: 400px;
   border: 1px solid black;
   margin: 30px;
-
+}
+footer{
+  background-color: #2b2b2b;
+}
+.logo{
+  width: 70px;
+  height: 20px;
+}
+.logo1{
+  width: 70px;
+  height: 20px;
+}
+.ultimo{
+  padding: 30px;
+}
+footer ul li{
+  color: white;
+  text-decoration: none;
+  list-style: none;
 }
