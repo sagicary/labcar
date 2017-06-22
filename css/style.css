@@ -48,6 +48,7 @@
 *{
   margin: 0 auto;
   padding: 0;
+  overflow-x: hidden;
 }
 /*Estilo Navbar*/
 .navbar-default{
@@ -129,6 +130,7 @@
   margin-bottom: 30px;
   margin-top: 30px;
 }
+/*SECCION CONDUCTOR*/
 .conductor{
   background-image: url(../assets/img/conduce.jpg);
   background-repeat: no-repeat;
@@ -147,4 +149,34 @@
   color: white;
   background-color: #FBBE00;
   border: 1px solid #FBBE00;
+}
+
+/*SECCION TARIFAS*/
+.tarifa{
+  background-color: #FBBE00;
+}
+.tarifa1{
+  padding: 30px;
+}
+.form-control{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+
+/*Cambia color placeholder*/
+.form-control::-webkit-input-placeholder { /* Chrome */
+  color: white;
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+.form-control:-moz-placeholder { /* Firefox 4 - 18 */
+  color: white;
+  opacity: 1;
 }
